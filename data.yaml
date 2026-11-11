@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['Bike', 'Car', 'Cart', 'Cow', 'Drain', 'Human', 'Obstacle', 'Rickshaw', 'Road', 'objects', 'waterlog']
+
+roboflow:
+  workspace: projectyolo-8cmmo
+  project: walkguardian_dataset-8ghtk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projectyolo-8cmmo/walkguardian_dataset-8ghtk/dataset/1
